@@ -1,0 +1,16 @@
+PODS:
+  - RainbowView (0.1.0)
+
+DEPENDENCIES:
+  - RainbowView (from `../`)
+
+EXTERNAL SOURCES:
+  RainbowView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RainbowView: 17584bc846ab0b66447fdf0e6bc18b5d05b430e3
+
+PODFILE CHECKSUM: 07e1b5bd662b119374c7ac64f33cfceb41c19727
+
+COCOAPODS: 1.4.0.beta.2

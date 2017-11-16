@@ -1,0 +1,6 @@
+framework module RainbowView {
+  umbrella header "RainbowView-umbrella.h"
+
+  export *
+  module * { export * }
+}

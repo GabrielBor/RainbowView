@@ -1,0 +1,6 @@
+framework module Pods_RainbowView_Example {
+  umbrella header "Pods-RainbowView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
