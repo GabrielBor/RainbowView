@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2AFC69E113354FF9B6AB46D02FBCB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A0A64B11F74C23B9E066635C64A7AC6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FDC32C6405AC500494E7EF9B82B7F /* ReplaceMe.swift */; };
 		8CCA70BDE54BFE5DC4C5866948A0670A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B8A50C3959E48FA98D430E20DA9BDDB2 /* Pods-RainbowView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC99966245A1BDC11F02623A4CE9D91E /* Pods-RainbowView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA3E1EDD6ABA6747B7820AA2CD8A8D1D /* Pods-RainbowView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B36AEF2D3EFBE53D0110E7C117311934 /* Pods-RainbowView_Tests-dummy.m */; };
 		CD12486B4FFACA2A87ADB6BAC5CCACDB /* Pods-RainbowView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17BE9BF900529F1783A8E244A7D918A /* Pods-RainbowView_Example-dummy.m */; };
 		DB451E4374D9DA78073A1425F1891A0A /* RainbowView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73532B1E3961D8F2530984EA48E7F9F9 /* RainbowView-dummy.m */; };
 		DD34F9526BBC30AA941E2CDB7B7A002A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DFC0966A1FBDBC9300A36898 /* RainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC096691FBDBC9300A36898 /* RainbowView.swift */; };
 		EA3E327F522AE6795090155A9EC1C3D6 /* RainbowView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63C5358E85AC4243D2BCE53C5D1AAB1 /* RainbowView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7B8B324161FD7B081C38B02E9A6291C /* Pods-RainbowView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B04B95F6E856A921E9EA1ED7424484C /* Pods-RainbowView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -43,25 +43,25 @@
 		6B64EFB8F2021B8084E1436A8844240A /* RainbowView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainbowView.xcconfig; sourceTree = "<group>"; };
 		72ED12ADC91F2EB05AF5CD86F2A21282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73532B1E3961D8F2530984EA48E7F9F9 /* RainbowView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainbowView-dummy.m"; sourceTree = "<group>"; };
-		783E2555450701B9C81C62C01574535D /* Pods-RainbowView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RainbowView_Example.modulemap"; sourceTree = "<group>"; };
+		783E2555450701B9C81C62C01574535D /* Pods-RainbowView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RainbowView_Example.modulemap"; sourceTree = "<group>"; };
 		84375F3D671769E482FD7A45EF6B19AB /* Pods-RainbowView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RainbowView_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C585D0BAF7122177CAD77ACB0AA8341 /* Pods-RainbowView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RainbowView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D58E72845C69FE525FA503D86B410F5 /* RainbowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RainbowView.framework; path = RainbowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A60F1E6BAF1E6066AFB58C3E0BBC3AF7 /* Pods-RainbowView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RainbowView_Tests.modulemap"; sourceTree = "<group>"; };
+		9D58E72845C69FE525FA503D86B410F5 /* RainbowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RainbowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F1E6BAF1E6066AFB58C3E0BBC3AF7 /* Pods-RainbowView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RainbowView_Tests.modulemap"; sourceTree = "<group>"; };
 		A92D5F725BAFF252964434467120A90A /* Pods-RainbowView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RainbowView_Example-resources.sh"; sourceTree = "<group>"; };
 		ABA6EC968BD5F59CDDF38F96EE75DADB /* Pods-RainbowView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RainbowView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B36AEF2D3EFBE53D0110E7C117311934 /* Pods-RainbowView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RainbowView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B3836530A4C7C684CBF97701447044E4 /* Pods-RainbowView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RainbowView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B517B3FA5C054645A26F04D6C47C8D76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC99966245A1BDC11F02623A4CE9D91E /* Pods-RainbowView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RainbowView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C2FF29B695BB03E05ACCFC36E0C7E5D3 /* Pods_RainbowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RainbowView_Example.framework; path = "Pods-RainbowView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FF29B695BB03E05ACCFC36E0C7E5D3 /* Pods_RainbowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainbowView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BB8285C05BD0E9AAC99851B2F36A20 /* Pods-RainbowView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RainbowView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E0D62957C959E43E60EEB9BF35069F55 /* Pods_RainbowView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RainbowView_Tests.framework; path = "Pods-RainbowView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC096691FBDBC9300A36898 /* RainbowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RainbowView.swift; path = RainbowView/Classes/RainbowView.swift; sourceTree = "<group>"; };
+		E0D62957C959E43E60EEB9BF35069F55 /* Pods_RainbowView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainbowView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17BE9BF900529F1783A8E244A7D918A /* Pods-RainbowView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RainbowView_Example-dummy.m"; sourceTree = "<group>"; };
 		F63C5358E85AC4243D2BCE53C5D1AAB1 /* RainbowView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowView-umbrella.h"; sourceTree = "<group>"; };
-		F7E5208DDE3412C8580168C0D1CD9C8D /* RainbowView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RainbowView.modulemap; sourceTree = "<group>"; };
-		FA2FDC32C6405AC500494E7EF9B82B7F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RainbowView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F7E5208DDE3412C8580168C0D1CD9C8D /* RainbowView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RainbowView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		0E90EB316E3C2E2FFA536D2D0FA9B6F8 /* RainbowView */ = {
 			isa = PBXGroup;
 			children = (
-				FA2FDC32C6405AC500494E7EF9B82B7F /* ReplaceMe.swift */,
 				5863FAE4EB34ED9A714C606355443966 /* Support Files */,
+				DFC096691FBDBC9300A36898 /* RainbowView.swift */,
 			);
 			name = RainbowView;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A404169E448B4D2418557AEB23236D29 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB451E4374D9DA78073A1425F1891A0A /* RainbowView-dummy.m in Sources */,
-				4A0A64B11F74C23B9E066635C64A7AC6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD12486B4FFACA2A87ADB6BAC5CCACDB /* Pods-RainbowView_Example-dummy.m in Sources */,
+				DFC0966A1FBDBC9300A36898 /* RainbowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60BFE26197811EC221FFBF827212E185 /* Pods-RainbowView_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,6 +534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7BB8285C05BD0E9AAC99851B2F36A20 /* Pods-RainbowView_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,6 +667,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
