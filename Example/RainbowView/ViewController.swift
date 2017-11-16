@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import RainbowView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let teste = RainbowView(frame: self.view.bounds)
+        teste.colors = [.red, .orange, .yellow, .green, .blue, .purple]
+        self.view.addSubview(teste)
     }
 
     override func didReceiveMemoryWarning() {

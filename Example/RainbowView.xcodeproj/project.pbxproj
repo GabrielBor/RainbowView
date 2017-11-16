@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		001A88206F7C8915E705CA88 /* Pods_RainbowView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CF418D34EE74BDF678CC4 /* Pods_RainbowView_Tests.framework */; };
-		0E34D54284502F11D55EA3DD /* Pods_RainbowView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383801FD54B0618CE5585751 /* Pods_RainbowView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		DF87827D1FBE1A2C002EF3BE /* RainbowView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF87827E1FBE1A2C002EF3BE /* RainbowView.framework */; };
+		DF87827F1FBE1BAC002EF3BE /* Pods_RainbowView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8782801FBE1BAC002EF3BE /* Pods_RainbowView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 		11D390FCC66C89C6189DF6DB /* Pods-RainbowView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowView_Tests/Pods-RainbowView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		383801FD54B0618CE5585751 /* Pods_RainbowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainbowView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		431CF418D34EE74BDF678CC4 /* Pods_RainbowView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainbowView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EAC9CC8B1B932D0829540F4 /* RainbowView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RainbowView.podspec; path = ../RainbowView.podspec; sourceTree = "<group>"; };
+		4EAC9CC8B1B932D0829540F4 /* RainbowView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RainbowView.podspec; path = ../RainbowView.podspec; sourceTree = "<group>"; };
 		59DC7FA7D927C7753BEFFD0A /* Pods-RainbowView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowView_Tests/Pods-RainbowView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RainbowView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +46,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7568BBF37E73CE4B04DEF20A /* Pods-RainbowView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowView_Example/Pods-RainbowView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8FEBEC9BE6F619ACC626BCDC /* Pods-RainbowView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowView_Example/Pods-RainbowView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97FEF8FA9D46DA3DFFDDB39A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E38AED8F544A8C3B688F02D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97FEF8FA9D46DA3DFFDDB39A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF8782791FBE1492002EF3BE /* RainbowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RainbowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF87827B1FBE18F7002EF3BE /* RainbowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RainbowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF87827E1FBE1A2C002EF3BE /* RainbowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RainbowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8782801FBE1BAC002EF3BE /* Pods_RainbowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RainbowView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38AED8F544A8C3B688F02D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E34D54284502F11D55EA3DD /* Pods_RainbowView_Example.framework in Frameworks */,
+				DF87827F1FBE1BAC002EF3BE /* Pods_RainbowView_Example.framework in Frameworks */,
+				DF87827D1FBE1A2C002EF3BE /* RainbowView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,10 @@
 		09EC9C786DF8E31871A48EE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF8782801FBE1BAC002EF3BE /* Pods_RainbowView_Example.framework */,
+				DF87827E1FBE1A2C002EF3BE /* RainbowView.framework */,
+				DF87827B1FBE18F7002EF3BE /* RainbowView.framework */,
+				DF8782791FBE1492002EF3BE /* RainbowView.framework */,
 				383801FD54B0618CE5585751 /* Pods_RainbowView_Example.framework */,
 				431CF418D34EE74BDF678CC4 /* Pods_RainbowView_Tests.framework */,
 			);
@@ -215,6 +225,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RH97H6WYHB;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,8 +528,9 @@
 			baseConfigurationReference = 7568BBF37E73CE4B04DEF20A /* Pods-RainbowView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RH97H6WYHB;
 				INFOPLIST_FILE = RainbowView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(SRCROOT) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,8 +544,9 @@
 			baseConfigurationReference = 8FEBEC9BE6F619ACC626BCDC /* Pods-RainbowView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RH97H6WYHB;
 				INFOPLIST_FILE = RainbowView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(SRCROOT) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

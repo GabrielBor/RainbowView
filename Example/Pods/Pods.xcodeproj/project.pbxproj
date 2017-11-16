@@ -14,7 +14,7 @@
 		CD12486B4FFACA2A87ADB6BAC5CCACDB /* Pods-RainbowView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F17BE9BF900529F1783A8E244A7D918A /* Pods-RainbowView_Example-dummy.m */; };
 		DB451E4374D9DA78073A1425F1891A0A /* RainbowView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73532B1E3961D8F2530984EA48E7F9F9 /* RainbowView-dummy.m */; };
 		DD34F9526BBC30AA941E2CDB7B7A002A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DFC0966A1FBDBC9300A36898 /* RainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC096691FBDBC9300A36898 /* RainbowView.swift */; };
+		DF87827C1FBE1A14002EF3BE /* RainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC096691FBDBC9300A36898 /* RainbowView.swift */; };
 		EA3E327F522AE6795090155A9EC1C3D6 /* RainbowView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63C5358E85AC4243D2BCE53C5D1AAB1 /* RainbowView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7B8B324161FD7B081C38B02E9A6291C /* Pods-RainbowView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B04B95F6E856A921E9EA1ED7424484C /* Pods-RainbowView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -295,7 +295,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					A404169E448B4D2418557AEB23236D29 = {
 						LastSwiftMigration = 0900;
@@ -327,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB451E4374D9DA78073A1425F1891A0A /* RainbowView-dummy.m in Sources */,
+				DF87827C1FBE1A14002EF3BE /* RainbowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD12486B4FFACA2A87ADB6BAC5CCACDB /* Pods-RainbowView_Example-dummy.m in Sources */,
-				DFC0966A1FBDBC9300A36898 /* RainbowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
