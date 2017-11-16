@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RainbowView_Example' do
+  pod 'RainbowView', :path => '../'
+
+  target 'RainbowView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
